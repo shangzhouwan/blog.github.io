@@ -1,0 +1,1 @@
+欢迎使用[chatGPT Nexus](https://chatgptnexus.github.io/chatgptnexus/)，你的智能对话引擎之家。我们借助先进的GPT技术，为你提供一流的对话体验。探索无限可能性，与我们的语言模型互动，解锁沉浸式、个性化的交流。chatGPT Nexus致力于连接思想，打破语言壁垒，让对话变得更加直观、深入。开启智能对话之旅，尽在chatGPT Nexus。
