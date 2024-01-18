@@ -1,18 +1,18 @@
 方案一：简单快速的同步方法
 首先，在命令行界面执行以下命令，查看当前代码仓库的远程地址
-bash复制代码git remote -v
+bash复制代码`git remote -v`
 
 通过以上命令，我们可以看到当前只有一个远程地址。
 接下来，通过以下命令在origin中新增一个远程地址，以实现将代码同时提交到两个仓库：
-bash复制代码git remote set-url --add origin https://github.com/shangzhouwan/17wanshua.github.io.git
+bash复制代码`git remote set-url --add origin https://github.com/shangzhouwan/old.git`
 
 通过以上命令，我们在origin中添加了一个新的远程地址。
 再次通过以下查询命令，查看origin关联的两个仓库地址：
-bash复制代码git remote -v
+bash复制代码`git remote -v`
 
 通过以上命令，我们可以确认origin关联了两个仓库地址，一个是原仓库地址，另一个是目标仓库地址。
 最后，当我们本地要提交代码时，只需使用以下命令即可将代码同步到两个Git仓库：
-bash复制代码git push origin
+bash复制代码`git push origin`
 
 通过以上步骤，我们成功实现了将代码同时提交到两个代码仓库的目标。
 然而，方案一只能同步仓库的某一个分支，无法同步所有分支和版本。如果你的项目需要同步所有分支和版本，那么我们可以采用方案二。
