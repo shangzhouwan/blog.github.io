@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>17玩耍_17wanshua</title><link>https://blog.17wanshua.cn</link><description>一起玩耍_博客，一个有意思的网站，分享有意思的东西，一起学习玩耍成长</description><copyright>17玩耍_17wanshua</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/14013146?v=4</url><title>avatar</title><link>https://blog.17wanshua.cn</link></image><lastBuildDate>Thu, 25 Jan 2024 08:56:44 +0000</lastBuildDate><managingEditor>17玩耍_17wanshua</managingEditor><pubDate>Thu, 25 Jan 2024 08:56:44 +0000</pubDate><ttl>60</ttl><webMaster>17玩耍_17wanshua</webMaster><item><title>git 使用总结</title><link>https://blog.17wanshua.cn/post/38.html</link><description>```&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>17玩耍_17wanshua</title><link>https://blog.17wanshua.cn</link><description>一起玩耍_博客，一个有意思的网站，分享有意思的东西，一起学习玩耍成长</description><copyright>17玩耍_17wanshua</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/14013146?v=4</url><title>avatar</title><link>https://blog.17wanshua.cn</link></image><lastBuildDate>Thu, 25 Jan 2024 09:04:13 +0000</lastBuildDate><managingEditor>17玩耍_17wanshua</managingEditor><pubDate>Thu, 25 Jan 2024 09:04:13 +0000</pubDate><ttl>60</ttl><webMaster>17玩耍_17wanshua</webMaster><item><title>git 使用总结</title><link>https://blog.17wanshua.cn/post/38.html</link><description>```&#13;
 git chekout -b branchname&#13;
 &#13;
 git reset --hard origin/release/2.3.0&#13;
@@ -227,4 +227,9 @@ git push origin --delete test&#13;
 ```&#13;
 怎么查看自己clone 的 是https还是ssh 的&#13;
 &#13;
-`git remote -v`。</description><guid isPermaLink="true">https://blog.17wanshua.cn/post/1.html</guid><pubDate>Thu, 18 Jan 2024 02:41:18 +0000</pubDate></item></channel></rss>
+`git remote -v`。</description><guid isPermaLink="true">https://blog.17wanshua.cn/post/1.html</guid><pubDate>Thu, 18 Jan 2024 02:41:18 +0000</pubDate></item><item><title>git 使用总结</title><link>https://blog.17wanshua.cn/post/1.html</link><description>首先感谢[Gmeek](https://meekdai.com/Gmeek.html)&#13;
+&#13;
+- 2015年注册域名17wanshua.cn,服务器用阿里云的ECS，很长一段时间&#13;
+- 2023年由于没有米续费阿里云的ECS,所以今年转称github了&#13;
+&#13;
+❤️感谢第1小伙伴的16次访问关于页面。</description><guid isPermaLink="true">https://blog.17wanshua.cn/post/1.html</guid><pubDate>Thu, 18 Jan 2024 02:41:18 +0000</pubDate></item></channel></rss>
