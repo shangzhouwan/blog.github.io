@@ -78,124 +78,126 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 通过API获取这个视频play_addr的uri地址。</p>
 <p><a href="https://www.iesdouyin.com/web/api/v2/aweme/iteminfo/?reflow_source=reflow_page&amp;item_ids=7324602766213598501&amp;a_bogus=64745b2b5bdc4e75b720a9a85b19867a" rel="nofollow">https://www.iesdouyin.com/web/api/v2/aweme/iteminfo/?reflow_source=reflow_page&amp;item_ids=7324602766213598501&amp;a_bogus=64745b2b5bdc4e75b720a9a85b19867a</a><br>
 只需要替换上面链接中的item_ids=7324602766213598501这一项的数字就是视频ID。然后在返回的页面中可以看到很长一段json数据。格式化一下，更容易查看：</p>
-<p>{<br>
-"item_list": [{<br>
-"aweme_id": "7324602766213598501",<br>
-"desc": "#江西文旅 #庐山雪景  我来给我家乡江西上分啦！欢迎大家来九江庐山看雪呀～ 超级美！",<br>
-"create_time": 1705391987,<br>
-"author": {<br>
-"short_id": "11491514",<br>
-"nickname": "饭思思",<br>
-"signature": "爱唱歌爱cos～\n来围脖找我玩呀：饭思思的微博\n合作邮箱：<a href="mailto:sisi2442@163.com">sisi2442@163.com</a>\n唯一小号@万年婴儿肥",<br>
-"avatar_thumb": {<br>
-"uri": "100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2",<br>
-"url_list": ["https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172"]<br>
-},<br>
-"avatar_medium": {<br>
-"uri": "100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2",<br>
-"url_list": ["https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172"]<br>
-},<br>
-"follow_status": 0,<br>
-"following_count": 0,<br>
-"favoriting_count": 0,<br>
-"unique_id": "sisi2442",<br>
-"mplatform_followers_count": 0,<br>
-"followers_detail": null,<br>
-"platform_sync_info": null,<br>
-"geofencing": null,<br>
-"policy_version": null,<br>
-"sec_uid": "MS4wLjABAAAAOEQzC2nJjIS5Zq5QFgfRxxLKGODQj0Vvlz8gciLF8Tg",<br>
-"type_label": null,<br>
-"card_entries": null,<br>
-"mix_info": null<br>
-},<br>
-"music": {<br>
-"mid": "7324602840553409291",<br>
-"title": "@饭思思创作的原声一饭思思（原声中的歌曲：此生不换-Qing Niao Fei Yu）",<br>
-"author": "饭思思",<br>
-"cover_hd": {<br>
-"uri": "1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2",<br>
-"url_list": ["https://p11.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p3.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p6.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172"]<br>
-},<br>
-"cover_large": {<br>
-"uri": "1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2",<br>
-"url_list": ["https://p11.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p3.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p6.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172"]<br>
-},<br>
-"cover_medium": {<br>
-"uri": "720x720/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2",<br>
-"url_list": ["https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172"]<br>
-},<br>
-"cover_thumb": {<br>
-"uri": "168x168/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2",<br>
-"url_list": ["https://p11.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2<del>c5_168x168.jpeg?from=116350172", "https://p3.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2</del>c5_168x168.jpeg?from=116350172", "https://p26.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2<del>c5_168x168.jpeg?from=116350172"]<br>
-},<br>
-"duration": 30,<br>
-"position": null,<br>
-"status": 1<br>
-},<br>
-"cha_list": null,<br>
-"video": {<br>
-"play_addr": {<br>
-"uri": "v0200fg10000cmj3edbc77u6r20l0bg0",<br>
-"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0200fg10000cmj3edbc77u6r20l0bg0\u0026ratio=720p\u0026line=0"]<br>
-},<br>
-"cover": {<br>
-"uri": "tos-cn-i-0813/oQAAMUHgQBALifT2L35EYfK2sc7qKBAfPEG7At",<br>
-"url_list": ["https://p3-sign.douyinpic.com/tos-cn-i-0813/oQAAMUHgQBALifT2L35EYfK2sc7qKBAfPEG7At</del>c5_300x400.webp?x-expires=1706662800\u0026x-signature=KDss1boVmMbpV9s1B7wXy6s0984%3D\u0026from=3213915784_large\u0026s=PackSourceEnum_DOUYIN_REFLOW\u0026se=false\u0026sc=cover\u0026biz_tag=aweme_video\u0026l=20240117093850F434F462C106845AC2B1", "https://p9-sign.douyinpic.com/tos-cn-i-0813/oQAAMUHgQBALifT2L35EYfK2sc7qKBAfPEG7At<del>c5_300x400.webp?x-expires=1706662800\u0026x-signature=Gm32fNnhaB%2BuHg%2FdYYtGDzaOTh8%3D\u0026from=3213915784_large\u0026s=PackSourceEnum_DOUYIN_REFLOW\u0026se=false\u0026sc=cover\u0026biz_tag=aweme_video\u0026l=20240117093850F434F462C106845AC2B1", "https://p26-sign.douyinpic.com/tos-cn-i-0813/oQAAMUHgQBALifT2L35EYfK2sc7qKBAfPEG7At</del>c5_300x400.webp?x-expires=1706662800\u0026x-signature=pRe9L5y22stsKjkV5kho%2BOHklXE%3D\u0026from=3213915784_large\u0026s=PackSourceEnum_DOUYIN_REFLOW\u0026se=false\u0026sc=cover\u0026biz_tag=aweme_video\u0026l=20240117093850F434F462C106845AC2B1", "https://p3-sign.douyinpic.com/tos-cn-i-0813/oQAAMUHgQBALifT2L35EYfK2sc7qKBAfPEG7At~c5_300x400.jpeg?x-expires=1706662800\u0026x-signature=cX7dhmiOZft%2BHL8bY0%2Btx%2BvziPg%3D\u0026from=3213915784_large\u0026s=PackSourceEnum_DOUYIN_REFLOW\u0026se=false\u0026sc=cover\u0026biz_tag=aweme_video\u0026l=20240117093850F434F462C106845AC2B1"]<br>
-},<br>
-"height": 1080,<br>
-"width": 1920,<br>
-"bit_rate": null<br>
-},<br>
-"statistics": {<br>
-"aweme_id": "7324602766213598501",<br>
-"comment_count": 4719,<br>
-"digg_count": 70996,<br>
-"play_count": 0,<br>
-"share_count": 4648,<br>
-"collect_count": 2021<br>
-},<br>
-"text_extra": [{<br>
-"start": 0,<br>
-"end": 5,<br>
-"type": 1,<br>
-"hashtag_name": "江西文旅",<br>
-"hashtag_id": 1641348211717134<br>
-}, {<br>
-"start": 6,<br>
-"end": 11,<br>
-"type": 1,<br>
-"hashtag_name": "庐山雪景",<br>
-"hashtag_id": 1587012021222414<br>
-}],<br>
-"video_labels": null,<br>
-"image_infos": null,<br>
-"risk_infos": {<br>
-"warn": false,<br>
-"type": 0,<br>
-"content": "",<br>
-"reflow_unplayable": 0<br>
-},<br>
-"comment_list": null,<br>
-"geofencing": null,<br>
-"video_text": null,<br>
-"label_top_text": null,<br>
-"promotions": null,<br>
-"long_video": null,<br>
-"images": null,<br>
-"group_id_str": "7317867723025960233",<br>
-"chapter_list": null,<br>
-"interaction_stickers": null,<br>
-"img_bitrate": null<br>
-}],<br>
-"filter_list": [],<br>
-"extra": {<br>
-"now": 1705455530245,<br>
-"logid": "20240117093850F434F462C106845AC2B1"<br>
-},<br>
-"status_code": 0<br>
-}<br>
-可以找到video里面play_addr的uri地址为v0200fg10000cmj3edbc77u6r20l0bg0。</p>
+<pre class="notranslate"><code class="notranslate">
+{
+	"item_list": [{
+		"aweme_id": "7324602766213598501",
+		"desc": "#江西文旅 #庐山雪景  我来给我家乡江西上分啦！欢迎大家来九江庐山看雪呀～ 超级美！",
+		"create_time": 1705391987,
+		"author": {
+			"short_id": "11491514",
+			"nickname": "饭思思",
+			"signature": "爱唱歌爱cos～\n来围脖找我玩呀：饭思思的微博\n合作邮箱：sisi2442@163.com\n唯一小号@万年婴儿肥",
+			"avatar_thumb": {
+				"uri": "100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2",
+				"url_list": ["https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172"]
+			},
+			"avatar_medium": {
+				"uri": "100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2",
+				"url_list": ["https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172"]
+			},
+			"follow_status": 0,
+			"following_count": 0,
+			"favoriting_count": 0,
+			"unique_id": "sisi2442",
+			"mplatform_followers_count": 0,
+			"followers_detail": null,
+			"platform_sync_info": null,
+			"geofencing": null,
+			"policy_version": null,
+			"sec_uid": "MS4wLjABAAAAOEQzC2nJjIS5Zq5QFgfRxxLKGODQj0Vvlz8gciLF8Tg",
+			"type_label": null,
+			"card_entries": null,
+			"mix_info": null
+		},
+		"music": {
+			"mid": "7324602840553409291",
+			"title": "@饭思思创作的原声一饭思思（原声中的歌曲：此生不换-Qing Niao Fei Yu）",
+			"author": "饭思思",
+			"cover_hd": {
+				"uri": "1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2",
+				"url_list": ["https://p11.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p3.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p6.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172"]
+			},
+			"cover_large": {
+				"uri": "1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2",
+				"url_list": ["https://p11.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p3.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p6.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172"]
+			},
+			"cover_medium": {
+				"uri": "720x720/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2",
+				"url_list": ["https://p11.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p3.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172", "https://p26.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2.jpeg?from=116350172"]
+			},
+			"cover_thumb": {
+				"uri": "168x168/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2",
+				"url_list": ["https://p11.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2~c5_168x168.jpeg?from=116350172", "https://p3.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2~c5_168x168.jpeg?from=116350172", "https://p26.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_31b2187fc176a131cb13a70cd0a840f2~c5_168x168.jpeg?from=116350172"]
+			},
+			"duration": 30,
+			"position": null,
+			"status": 1
+		},
+		"cha_list": null,
+		"video": {
+			"play_addr": {
+				"uri": "v0200fg10000cmj3edbc77u6r20l0bg0",
+				"url_list": ["https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0200fg10000cmj3edbc77u6r20l0bg0\u0026ratio=720p\u0026line=0"]
+			},
+			"cover": {
+				"uri": "tos-cn-i-0813/oQAAMUHgQBALifT2L35EYfK2sc7qKBAfPEG7At",
+				"url_list": ["https://p3-sign.douyinpic.com/tos-cn-i-0813/oQAAMUHgQBALifT2L35EYfK2sc7qKBAfPEG7At~c5_300x400.webp?x-expires=1706662800\u0026x-signature=KDss1boVmMbpV9s1B7wXy6s0984%3D\u0026from=3213915784_large\u0026s=PackSourceEnum_DOUYIN_REFLOW\u0026se=false\u0026sc=cover\u0026biz_tag=aweme_video\u0026l=20240117093850F434F462C106845AC2B1", "https://p9-sign.douyinpic.com/tos-cn-i-0813/oQAAMUHgQBALifT2L35EYfK2sc7qKBAfPEG7At~c5_300x400.webp?x-expires=1706662800\u0026x-signature=Gm32fNnhaB%2BuHg%2FdYYtGDzaOTh8%3D\u0026from=3213915784_large\u0026s=PackSourceEnum_DOUYIN_REFLOW\u0026se=false\u0026sc=cover\u0026biz_tag=aweme_video\u0026l=20240117093850F434F462C106845AC2B1", "https://p26-sign.douyinpic.com/tos-cn-i-0813/oQAAMUHgQBALifT2L35EYfK2sc7qKBAfPEG7At~c5_300x400.webp?x-expires=1706662800\u0026x-signature=pRe9L5y22stsKjkV5kho%2BOHklXE%3D\u0026from=3213915784_large\u0026s=PackSourceEnum_DOUYIN_REFLOW\u0026se=false\u0026sc=cover\u0026biz_tag=aweme_video\u0026l=20240117093850F434F462C106845AC2B1", "https://p3-sign.douyinpic.com/tos-cn-i-0813/oQAAMUHgQBALifT2L35EYfK2sc7qKBAfPEG7At~c5_300x400.jpeg?x-expires=1706662800\u0026x-signature=cX7dhmiOZft%2BHL8bY0%2Btx%2BvziPg%3D\u0026from=3213915784_large\u0026s=PackSourceEnum_DOUYIN_REFLOW\u0026se=false\u0026sc=cover\u0026biz_tag=aweme_video\u0026l=20240117093850F434F462C106845AC2B1"]
+			},
+			"height": 1080,
+			"width": 1920,
+			"bit_rate": null
+		},
+		"statistics": {
+			"aweme_id": "7324602766213598501",
+			"comment_count": 4719,
+			"digg_count": 70996,
+			"play_count": 0,
+			"share_count": 4648,
+			"collect_count": 2021
+		},
+		"text_extra": [{
+			"start": 0,
+			"end": 5,
+			"type": 1,
+			"hashtag_name": "江西文旅",
+			"hashtag_id": 1641348211717134
+		}, {
+			"start": 6,
+			"end": 11,
+			"type": 1,
+			"hashtag_name": "庐山雪景",
+			"hashtag_id": 1587012021222414
+		}],
+		"video_labels": null,
+		"image_infos": null,
+		"risk_infos": {
+			"warn": false,
+			"type": 0,
+			"content": "",
+			"reflow_unplayable": 0
+		},
+		"comment_list": null,
+		"geofencing": null,
+		"video_text": null,
+		"label_top_text": null,
+		"promotions": null,
+		"long_video": null,
+		"images": null,
+		"group_id_str": "7317867723025960233",
+		"chapter_list": null,
+		"interaction_stickers": null,
+		"img_bitrate": null
+	}],
+	"filter_list": [],
+	"extra": {
+		"now": 1705455530245,
+		"logid": "20240117093850F434F462C106845AC2B1"
+	},
+	"status_code": 0
+}
+</code></pre>
+<p>可以找到video里面play_addr的uri地址为v0200fg10000cmj3edbc77u6r20l0bg0。</p>
 <p>得到无水印视频链接<br>
 用上一步得到的uri地址，替换下面的${data.video.play_addr.uri}就可以了</p>
 <p><a href="https://www.iesdouyin.com/aweme/v1/play/?video_id=$%7Bdata.video.play_addr.uri%7D&amp;ratio=1080p&amp;line=0" rel="nofollow">https://www.iesdouyin.com/aweme/v1/play/?video_id=${data.video.play_addr.uri}&amp;ratio=1080p&amp;line=0</a><br>
