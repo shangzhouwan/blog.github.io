@@ -12,5 +12,6 @@
     "commentLabelColor":"#006b75",
     "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
     "urlMode":"issue",
+    "showPostSource":0,
     "GMEEK_VERSION":"last"
 }
