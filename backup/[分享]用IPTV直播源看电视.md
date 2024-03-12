@@ -20,9 +20,14 @@ http://iptv.meekdai.com
 需要注意的是，这个直播源目前是IPV6的，如果你的宽带不支持，或者路由器光猫还没有开启IPV6，则需要先解决IPV6的问题。
 后续如果有找到更好的，或者有IPV4的直播源，也会在本篇文章里面添加。
 另外我也在我的iPhone上测试了一下，下载APTV这个软件，然后添加上面的源，一样可以愉快的看电视。
-参考链接：
+
+**参考链接：**
 https://github.com/Meroser/IPTV
 https://github.com/skysolf/iptv
 https://github.com/fanmingming/live
 https://github.com/Moexin/IPTV
 https://www.znds.com/tv-1236500-1-1.html
+https://github.com/ssili126/tv (IPV4)
+https://github.com/Ftindy/IPTV-URL
+
+`目前有些IPTV仓库的作者有删库跑路的情况，所以上面的参考链接可以多去看看，有一些还是可以用的。`
