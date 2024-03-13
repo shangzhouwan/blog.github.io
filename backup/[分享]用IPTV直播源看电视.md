@@ -32,4 +32,4 @@ https://github.com/Ftindy/IPTV-URL
 
 `目前有些IPTV仓库的作者有删库跑路的情况，所以上面的参考链接可以多去看看，有一些还是可以用的。`
 
-、新的播放源请参考 我的仓库 https://github.com/shangzhouwan/tv、
+`新的播放源请参考 我的仓库 https://github.com/shangzhouwan/tv`
