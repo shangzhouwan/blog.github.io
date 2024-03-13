@@ -12,7 +12,7 @@
 添加直播源
 安装好Tivimate后，直接打开，然后往里面添加一个源地址就行。我之前说的非常不错的开源项目就是一个直播源[IPTV](https://github.com/Meroser/IPTV)。因为github有些时候没有科学上网的话会无法访问，所以这个开源项目里面的订阅地址用了镜像源，这导致了需要输入的地址就非常非常长，如下：
 
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u 【备注：已失效】
 因为在电视上输入这一段实在太~~，所以我用我的二级域名做了一个显性重定向，所以只需要添加源地址的时候输入下面这个就可以了：
 
 http://iptv.meekdai.com
@@ -31,3 +31,5 @@ https://github.com/ssili126/tv (IPV4)
 https://github.com/Ftindy/IPTV-URL
 
 `目前有些IPTV仓库的作者有删库跑路的情况，所以上面的参考链接可以多去看看，有一些还是可以用的。`
+
+、新的播放源请参考 我的仓库 https://github.com/shangzhouwan/tv、
