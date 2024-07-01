@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://static.figma.com/app/icon/1/favicon.ico"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -75,8 +75,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 描述：<br>
 这份资源整理了计算机开发岗位的面试当中，涉及计算机网络、操作系统、数据库等计算机基础的常见面试题及答案，大部分问题都带有更加细节的知识点追问。可以用于模拟面试、面试前复习、快速备战面试。作者通过这个笔记，在一个月内快速准备面试中涉及到的计算机基础问题，一个月后拿到了字节跳动的后端开发offer.</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://blog.17wanshua.cn"> 一起玩耍_博客 </a>
 <p><a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备19020392号</a>
@@ -131,6 +133,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

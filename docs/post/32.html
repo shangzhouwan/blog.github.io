@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://static.figma.com/app/icon/1/favicon.ico"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -140,8 +140,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>从此，我再也不觉得我会嫉妒别人的生活，你有你的人生，我有我的，我只要审视好自己的人生，选择好我的人生态度，可以是积极的，也当然可以是消极的。然后朝着这个人生剧本的方向尽力打好我手中的牌即可。至于结果打得好不好，那我不必关心，反正对人生意义来说，无所谓。</p>
 <p>目前的感悟就这么多，希望能对你有些启发: )</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://blog.17wanshua.cn"> 一起玩耍_博客 </a>
 <p><a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备19020392号</a>
@@ -196,6 +198,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

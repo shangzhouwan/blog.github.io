@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://static.figma.com/app/icon/1/favicon.ico"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -67,8 +67,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><p>本文是腾讯前端技术团队 MoonWebTeam 产出的前端技术年度盘点，文章对 2023 主要前端技术领域如语言标准、前端框架、前端基础建设、 Chrome 浏览器、低代码、 D2C 、大模型、跨端、 WASM 、音视频等方面展开了全面的技术解读，可能是目前全网最详细的前端技术年度盘点文。同时文章还对 2024 年度前端技术的发展趋势做了展望，包括大模型对前端带来的加持、Rust 语言对前端基础建设的意义等。</p>
 <p>文章链接：<a href="https://mp.weixin.qq.com/s/LiygBJqMN8U_vSpAjxMibQ" rel="nofollow">https://mp.weixin.qq.com/s/LiygBJqMN8U_vSpAjxMibQ</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://blog.17wanshua.cn"> 一起玩耍_博客 </a>
 <p><a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备19020392号</a>
@@ -123,6 +125,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
