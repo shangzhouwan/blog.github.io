@@ -1,5 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>一起玩耍_博客</title><link>https://blog.17wanshua.cn</link><description>一起玩耍_博客，一个有意思的网站，分享有意思的东西，一起学习玩耍成长</description><copyright>一起玩耍_博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/14013146?v=4</url><title>avatar</title><link>https://blog.17wanshua.cn</link></image><lastBuildDate>Wed, 31 Jul 2024 16:22:47 +0000</lastBuildDate><managingEditor>一起玩耍_博客</managingEditor><ttl>60</ttl><webMaster>一起玩耍_博客</webMaster><item><title>研究生完全求生手册</title><link>https://blog.17wanshua.cn/post/46.html</link><description>关于台湾清华大学教授彭明辉的文章——《研究所新生完全求生手册》&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>一起玩耍_博客</title><link>https://blog.17wanshua.cn</link><description>一起玩耍_博客，一个有意思的网站，分享有意思的东西，一起学习玩耍成长</description><copyright>一起玩耍_博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/14013146?v=4</url><title>avatar</title><link>https://blog.17wanshua.cn</link></image><lastBuildDate>Wed, 13 Nov 2024 05:45:06 +0000</lastBuildDate><managingEditor>一起玩耍_博客</managingEditor><ttl>60</ttl><webMaster>一起玩耍_博客</webMaster><item><title>[开源推荐]PDFMathTranslate 完整保留排版的 PDF 全文翻译器</title><link>https://blog.17wanshua.cn/post/47.html</link><description>### 项目介绍&#13;
+PDFMathTranslate 是一个免费开源的 PDF 文档全文双语翻译工具&#13;
+Github: [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)&#13;
+### 功能介绍&#13;
+✨ 基于 AI 布局分析和 PDF 指令流分析实现对文档排版的完整保留&#13;
+📊 保留行内/行间公式和图表样式，对 Latex 文献进行特殊优化&#13;
+📄 保留文档可索引目录结构&#13;
+🌐 支持 Google、Ollama 和 DeepLX 等多种翻译服务&#13;
+&#13;
+&lt;img width='830' alt='截屏2024-11-13 11 27 34' src='https://github.com/user-attachments/assets/dcb4ad35-4e21-4f21-bf71-f83cc474ef1e'&gt;&#13;
+。</description><guid isPermaLink="true">https://blog.17wanshua.cn/post/47.html</guid><pubDate>Wed, 13 Nov 2024 05:06:34 +0000</pubDate></item><item><title>研究生完全求生手册</title><link>https://blog.17wanshua.cn/post/46.html</link><description>关于台湾清华大学教授彭明辉的文章——《研究所新生完全求生手册》&#13;
 &#13;
 `&#13;
 阮一峰说：“如果你不知道，自己该不该读研究生，或者不知道怎么读研究生，我建议你去读一下这本《手册》。</description><guid isPermaLink="true">https://blog.17wanshua.cn/post/46.html</guid><pubDate>Wed, 24 Jul 2024 08:26:52 +0000</pubDate></item><item><title>三十年，解决人生三大问题</title><link>https://blog.17wanshua.cn/post/45.html</link><description>&#13;
